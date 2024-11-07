@@ -1,0 +1,45 @@
+html {
+    text-size-adjust: 100%;
+}
+
+body {
+    background-image: url(https://imgur.com/HHy1bag.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+p {
+    color: #ffff;
+    font-size: 13px;
+    text-shadow: 0px 0px 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-shadow: 0px 0px 2px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3c1738;
+    text-shadow: 0px 0px 2px;
+}
+::-moz-selection {
+    background-color: #ffff;
+    color: #3c1738;
+}
+
+::selection {
+    background-color: #ffff;
+    color: #3c1738;
+}
+.no-select {
+    user-select: none; 
+    -webkit-user-drag: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
